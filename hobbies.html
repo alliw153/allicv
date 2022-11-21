@@ -2,17 +2,30 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Alli's Hobbies</title>
+        <title>Contact Me</title>
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h1>My Hobbies</h1>
-        <ol>
-            <li>Running</li> <img src="allirunning.jpg" alt="Alli running">
-            <li>Reading</li>
-            <li>Walking my dogs</li> <img src="alliwalkingthedogs.jpg" alt="Alli walking the dogs">
-        </ol>
+        <h1>Contact Me</h1>
+        <p>Send me an email below!</p>
+    <hr>
+    <form action="mailto:allisonstrode@gmail.com" method="post" enctype="text/plain">
+        <label>Name</label>
         <br>
+        <input type="text" name="yourName" value="">
+        <br>
+        <label>Email</label>
+        <br>
+        <input type="text" name="yourEmail" value="">
+        <br>
+        <label>Message</label>
+        <br>
+        <textarea name="yourMessage" rows="6" cols="60"></textarea>
+        <br>
+        <br>
+        <input type="Submit">
+    </form>
+    <br>
         <a href="index.html">Home</a>
     </body>
     </html>
